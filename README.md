@@ -1,16 +1,90 @@
-# React + Vite
+# Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Modern developer portfolio website built using React.js. This portfolio showcases projects, skills, certifications, resume, GitHub profile, and professional information with a clean and responsive UI.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Modern Responsive Design
+* Project Showcase Section
+* Skills & Technologies Section
+* Resume Download Option
+* GitHub & LinkedIn Integration
+* Contact Section
+* Smooth UI & Animations
+* Mobile Friendly Layout
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React.js
+* JavaScript
+* CSS
+* HTML
+* Vite
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Clone the repository:
+
+```bash id="m7t2xq"
+git clone https://github.com/yourusername/portfolio-website.git
+```
+
+Go to project folder:
+
+```bash id="v4n8zl"
+cd portfolio-website
+```
+
+Install dependencies:
+
+```bash id="k5t9fr"
+npm install
+```
+
+Run the project:
+
+```bash id="m2w8mb"
+npm run dev
+```
+
+## Project Structure
+
+```bash id="p4n7xq"
+portfolio-website/
+│
+├── src/
+│   ├── components/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── public/
+├── package.json
+└── vite.config.js
+```
+
+## Sections Included
+
+* Hero Section
+* About Me
+* Skills
+* Projects
+* Certifications
+* Resume
+* Contact Information
+
+## Future Improvements
+
+* Dark/Light Theme Toggle
+* Blog Section
+* Project Filtering
+* AI Chat Assistant
+* Animated Transitions
+* Contact Form Backend Integration
+
+## Author
+
+Yash Yadav
+
+* GitHub: https://github.com/yashy181
+* LinkedIn: https://www.linkedin.com/in/yash-yadav-348a4a329
